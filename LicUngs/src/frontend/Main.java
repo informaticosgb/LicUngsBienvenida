@@ -26,7 +26,7 @@ public class Main {
 		jf.add(c);
 		jf.setVisible(true);
 
-		// Creamos un nuevo boton y seteamos sus atributos con.
+		// Creamos un nuevo botón y seteamos sus atributos.
 		JButton chau = new JButton("Chauuuu :D");
 
 		chau.setSize(150, 50);
