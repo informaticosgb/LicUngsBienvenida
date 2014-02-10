@@ -75,11 +75,11 @@ public class Colores extends JPanel {
 				// gr.drawOval(100, 100, 300, 300);
 				// gr.fillOval(x, y, ancho, alto);
 				// gr.fillRect(x, y, ancho, alto);
-				gr.setFont(fuente_uno);
+				gr.setFont(fuente_uno); // Podriamos poner dentro del parentesis new Font("TimesRoman", Font.PLAIN, 40)
 				gr.drawString("Bienvenidossss    a", 100, 30);
 				gr.drawString("Licenciatura en Sistemas", 100, 100);
 				gr.drawString("UNGS", 250, 180);
-				gr.setFont(fuente_dos);
+				gr.setFont(fuente_dos); // Podriamos poner dentro del parentesis new Font("TimesRoman", Font.PLAIN, 20)
 				gr.drawString("Compartí la página y seguinos en Facebook :D",
 						100, 350);
 				// gr.setFont(fuente_dos);
